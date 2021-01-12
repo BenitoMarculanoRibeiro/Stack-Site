@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Galada&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Comfortaa", Helvetica, sans-serif;
+  margin-bottom: 100px;
+}
+/* Cabecalho */
+.cabecalho {
+  font-family: "Comfortaa", Helvetica, sans-serif;
+  padding: 10px 0px;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color: #2393ff;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+.stackLogo {
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+.stackLogo a {
+  margin: 0 5px;
+}
+.menu li {
+  list-style: none;
+  padding-right: 25px;
+  display: inline-flex;
+}
+.menu li a {
+  color: white;
+  text-decoration: none;
+}
+/* Chat */
+
+.chat {
+  font-size: 100px;
+  margin: 0 auto;
+  text-align: center;
+  width: 800px;
+  height: 500px;
+  background-color: tomato;
+  border-radius: 10px;
+}
+
+/*-------saudacao------
+
+h2 {
+  font-family: "Galada", cursive;
+  font-size: 35pt;
+  padding: 50px;
+  font-weight: normal;
+}
+
+p {
+  text-decoration: none;
+  color: black;
+  padding-left: 70px;
+}
+
+p a {
+  text-decoration: none;
+  color: black;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+*/
